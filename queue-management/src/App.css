@@ -1,0 +1,57 @@
+:root {
+  --success: #4caf50;
+  --warning: #ff9800;
+  --error: #f44336;
+  --info: #2196f3;
+}
+
+body {
+  margin: 16px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 16px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.queue-form,
+.queue-display {
+  border: 1px solid #ccc;
+  padding: 12px;
+}
+
+.form-group {
+  margin-bottom: 8px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.queue-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.actions {
+  display: flex;
+  gap: 4px;
+}
